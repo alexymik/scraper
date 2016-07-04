@@ -1,4 +1,5 @@
-// example1.js - Example #1 - Goes to http://www.horseheadspickapart.com/content.php?id=46 and returns the HTML
+// example2.js - Example #2 - Goes to http://www.horseheadspickapart.com/content.php?id=46
+// and returns a JSON array of vehicle results
 
 var request = require('request');
 var cheerio = require('cheerio');
