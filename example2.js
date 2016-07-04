@@ -35,6 +35,7 @@ request(options, function (error, response, body) {
             //'full_image': host + '/' + image.replace(/resized_/g, '').replace(/&w=(\d+)/g, '')
         })
     });
-    
+
     console.dir(results);
+    //console.log(JSON.stringify(results));
 });
