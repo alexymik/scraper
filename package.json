@@ -2,7 +2,10 @@
   "name": "scraping",
   "version": "1.0.0",
   "description": "Web scraping examples",
-  "repository": "https://github.com/alexymik/scraper",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexymik/scraper.git"
+  },
   "main": "example1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +16,8 @@
     "request": "*",
     "cheerio": "*",
     "dotenv": "*",
-    "sendgrid": "^3.0.6"
+    "sendgrid": "^3.0.6",
+    "async": "*",
+    "request-promise": "*"
   }
 }
