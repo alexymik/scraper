@@ -32,7 +32,7 @@ request(options, function (error, response, body) {
             'vehicle': vehicle,
             'date_added': date_added,
             'image': host + '/' + image,
-            //'full_image': host + '/' + image.replace(/resized_/g, '').replace(/&w=(\d+)/g, '')
+            //'full_image': host + '/new_photos/' + image.match(/(IMG_\d\d\d\d\.JPG)/g, '')
         })
     });
 
