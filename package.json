@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "request": "*",
-    "cheerio": "*"
+    "cheerio": "*",
+    "dotenv": "*",
+    "sendgrid": "^3.0.6"
   }
 }
